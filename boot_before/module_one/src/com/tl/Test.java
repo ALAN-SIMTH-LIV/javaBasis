@@ -1,4 +1,6 @@
-import java.util.Scanner;
+package com.tl;
+
+import java.util.Scanner;  // 类的全路径名  java.lang 包不需要import导入
 
 public class Test {
     public static void main(String[] args) {
@@ -21,14 +23,14 @@ public class Test {
 //        System.out.println(c);
 
         int a = 0;
-        // ++a 前置自增 先自增 再赋值
-        // a++ 后置自增 先赋值 再自增
-        int b = a++; // b = a = 0 => a = 1
-        int c = ++a; // a = a + 1 = 2 => c = 2
+        // ++com.tl.a 前置自增 先自增 再赋值
+        // com.tl.a++ 后置自增 先赋值 再自增
+        int b = a++; // com.tl.b = com.tl.a = 0 => com.tl.a = 1
+        int c = ++a; // com.tl.a = com.tl.a + 1 = 2 => c = 2
         System.out.println(b+","+c+","+a);
 
 
-//        if (a == 1){
+//        if (com.tl.a == 1){
 //            System.out.println("a等于1");
 //        } else {
 //            System.out.println("a不等于1");
@@ -45,7 +47,7 @@ public class Test {
 
         while (true){
             if (a < 10){
-                System.out.print("a="+a+" ");
+                System.out.print("com.tl.a="+a+" ");
                 a++;
             } else {
                 break;
@@ -72,15 +74,18 @@ public class Test {
      * 计算两个整数的和
      * @param a 第一个整数
      * @param b 第二个整数
-     * @return a+b的结果
+     * @return com.tl.a+b的结果
      */
     public static String add(int a, int b){  // 形参
 
         if (a == 0 || b == 0){
             throw new IllegalArgumentException("a或b不能为0");
         }
-        System.out.println("a="+a+",b="+b);
-        return "a+b= "+(a + b);
+        System.out.println("com.tl.a="+a+",com.tl.b="+b);
+        return "com.tl.a+com.tl.b= "+(a + b);
     }
+
+    // 很久没有学习了 我忏悔
+
 
 }
