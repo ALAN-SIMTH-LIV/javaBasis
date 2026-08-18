@@ -13,7 +13,7 @@ public class Phone {
     Phone() {}
 
     // 有参构造方法
-    Phone(String brand, String memory, String size, String color, double price) {
+    public Phone(String brand, String memory, String size, String color, double price) {
         // 字段名 = 参数名;
         // this代表当前对象的属性
         this.brand = brand;
