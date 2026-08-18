@@ -10,5 +10,8 @@
         <module name="module2" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="train_one" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
