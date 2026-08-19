@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        // 终端图书管理系统
         Library library = new Library();
         while (true){
             System.out.println("=== 图书馆管理系统 ===");

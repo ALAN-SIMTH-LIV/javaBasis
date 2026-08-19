@@ -18,7 +18,7 @@ public class train_one {
 
     public static boolean isPalindrome(String str){
         for (int i = 0 ; i < str.length()/2; i++){
-            System.out.println("当前比较的字符：" + str.charAt(i) + " " + str.charAt(str.length() - 1 - i));
+            // System.out.println("当前比较的字符：" + str.charAt(i) + " " + str.charAt(str.length() - 1 - i));
             if (str.charAt(i) != str.charAt(str.length() - 1 - i)){
                 return false;
             }

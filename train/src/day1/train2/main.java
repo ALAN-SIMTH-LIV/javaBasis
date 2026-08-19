@@ -5,6 +5,7 @@ import java.util.List;
 
 public class main {
     public static void main(String[] args) {
+        // 圆继承
         List<Shape> shapes = new ArrayList<>();
         shapes.add(new Circle("圆1",4));
         shapes.add(new Circle("圆2",5));
