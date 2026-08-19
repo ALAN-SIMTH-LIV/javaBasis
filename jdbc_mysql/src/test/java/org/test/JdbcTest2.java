@@ -1,5 +1,6 @@
 package org.test;
 
+import com.alibaba.fastjson2.JSON;
 import org.test.po.User;
 import org.test.utils.DbConnection;
 import org.test.utils.JdbcConverter;
@@ -13,11 +14,11 @@ import java.util.List;
 
 public class JdbcTest2 {
     public static void main(String[] args) {
-        // System.out.println(insert());
-        // System.out.println(delete(13));
-        // System.out.println(update(10, "小红", "20", "1"));
-        System.out.println(selectById(1));
-        System.out.println(selectAll());
+         // System.out.println(JSON.toJSONString(insert()));
+        // System.out.println(JSON.toJSONString(delete(13)));
+        // System.out.println(JSON.toJSONString(update(10, "小红", "20", "1")));
+        System.out.println(JSON.toJSONString(selectById(1)));
+        System.out.println(JSON.toJSONString(selectAll()));
     }
 
     private static Response<Void> insert(){ // 新增
