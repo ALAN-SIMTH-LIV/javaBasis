@@ -1,6 +1,7 @@
 package org.test;
 
 import org.test.po.User;
+import org.test.utils.DbConnection;
 import org.test.utils.JdbcConverter;
 import org.test.utils.Response;
 
@@ -9,7 +10,6 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 
 public class JdbcTest2 {
     public static void main(String[] args) {
@@ -21,7 +21,7 @@ public class JdbcTest2 {
     }
 
     private static Response<Void> insert(){ // 新增
-        try( Connection connection = DbConnection.getConnection();){
+        try(Connection connection = DbConnection.getConnection();){
             String sql = "insert into users (name,age,sex) values(?,?,?);";
             PreparedStatement statement = connection.prepareStatement(sql);
             statement.setString(1,"神秘人2");

@@ -1,5 +1,7 @@
 package org.test;
 
+import org.test.utils.DbConnection;
+
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -18,7 +20,7 @@ public class JdbcTest {
     }
 
     private static void insert(){ // 新增
-        try( Connection connection = DbConnection.getConnection();){
+        try(Connection connection = DbConnection.getConnection();){
             String sql = "insert into users (name,age,sex) values(?,?,?);";
             PreparedStatement statement = connection.prepareStatement(sql);
             statement.setString(1,"神秘人2");
