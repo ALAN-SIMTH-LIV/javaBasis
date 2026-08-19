@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="module3" />
         <module name="module2" />
+        <module name="jdbc_mysql" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

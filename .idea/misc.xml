@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/module2/pom.xml" />
         <option value="$PROJECT_DIR$/module3/pom.xml" />
         <option value="$PROJECT_DIR$/train/day1/train_one/pom.xml" />
+        <option value="$PROJECT_DIR$/jdbc_mysql/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
