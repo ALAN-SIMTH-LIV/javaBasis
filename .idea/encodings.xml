@@ -7,6 +7,10 @@
     <file url="file://$PROJECT_DIR$/module2/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/module3/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/module3/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-mysql/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-mysql/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/train/day1/train_one/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/train/day1/train_one/src/main/resources" charset="UTF-8" />
   </component>
